@@ -46,14 +46,14 @@ function testarNumeros() {
 function definirTriangulo() {
     if (numero1.value == numero2.value && numero1.value == numero3.value) {
         resultado.innerHTML = 'É UM TRIÂNGULO EQUILÁTERO!';
-        imgTriangulo.setAttribute('src','./img/Equilatero.png');
+        imgTriangulo.setAttribute('src','./img/Equilatero.PNG');
 
     } else if (numero1.value == numero2.value || numero1.value == numero3.value || numero2.value == numero3.value) {
         resultado.innerHTML = 'É UM TRIÂNGULO ISÓSCELES!';
-        imgTriangulo.setAttribute('src','./img/isosceles.png');
+        imgTriangulo.setAttribute('src','./img/Isosceles.PNG');
 
     } else {
         resultado.innerHTML ='É UM TRIÂNGULO ESCALENO!';
-        imgTriangulo.setAttribute('src','./img/escaleno.png');
+        imgTriangulo.setAttribute('src','./img/Escaleno.PNG');
     }
 }  
